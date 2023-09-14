@@ -20,7 +20,6 @@ const Logo = ({ container }) => {
         start: "top bottom",
         end: "bottom bottom",
         ease: "elastic(2.5, 1)",
-        markers: true,
       },
     });
 
