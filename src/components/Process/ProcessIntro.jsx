@@ -30,10 +30,10 @@ const Intro = () => {
             handle each phase of your project.
           </motion.h3>
         </div>
-        <div className="mt-20 xl:mt-[270px] w-2/3 md:w-[400px] xl:w-[490px] overflow-hidden rounded-tl-[80px] h-[110vw] md:h-auto ml-auto -mr-5 md:mr-0 md:ml-0">
+        <div className="mt-20 xl:mt-[270px] w-2/3 md:w-[400px] xl:w-[490px] overflow-hidden rounded-tl-[80px] h-[110vw] md:h-auto ml-auto -mr-5 md:mr-0 lg:ml-0 xl:h-[750px]">
           <motion.img
             src={IntroImg}
-            alt=""
+            alt="IntroImg"
             className="object-cover w-full h-full"
             initial={{ opacity: 0, scale: 1.05 }}
             animate={{ opacity: 1, scale: 1 }}

@@ -24,9 +24,9 @@ const Requirements = () => {
         <div
           data-scroll
           data-scroll-speed="-0.02"
-          className="xl:w-[1345px] md:mx-auto mt-16 lg:mt-[200px] w-[120%] -mx-8 mb-16 md:w-11/12"
+          className="xl:w-[1345px] md:mx-auto mt-16 lg:mt-[200px] w-[120%] -mx-8 mb-16 md:w-11/12 xl:h-[990px]"
         >
-          <img src={Img} alt="Img" />
+          <img src={Img} alt="Img" className="xl:h-full" />
         </div>
       </div>
     </div>

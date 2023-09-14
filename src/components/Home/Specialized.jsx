@@ -20,22 +20,22 @@ const Specialized = () => {
       <div
         data-scroll
         data-scroll-speed="-0.03"
-        className="w-11/12 md:w-96 xl:w-[923px] ml-auto mt-[-72px] xl:mt-[-108px] h-[100vw] md:h-auto -z-10"
+        className="w-11/12 md:w-96 xl:w-[923px] ml-auto mt-[-72px] xl:mt-[-108px] h-[100vw] md:h-auto xl:h-[70vh] -z-10"
       >
         <img
           src={Img1}
-          alt=""
+          alt="Img1"
           className="object-cover h-full md:h-auto xl:h-full"
         />
       </div>
       <div
         data-scroll
         data-scroll-speed="0.1"
-        className="w-11/12 md:w-64 xl:w-[615px] -mt-10 md:-mt-60 xs:-mt-32 xl:mt-[-280px] md:ml-36 xl:ml-80 h-[100vw] md:h-auto"
+        className="w-11/12 md:w-64 xl:w-[615px] -mt-10 md:-mt-60 xs:-mt-32 xl:mt-[-280px] md:ml-36 xl:ml-80 h-[100vw] md:h-auto xl:h-[440px]"
       >
         <img
           src={Img2}
-          alt=""
+          alt="Img2"
           className="object-cover h-full md:h-auto xl:h-full"
         />
       </div>

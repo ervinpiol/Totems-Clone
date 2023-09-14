@@ -36,9 +36,9 @@ const OurSupport = () => {
         <div
           data-scroll
           data-scroll-speed="-0.04"
-          className="xl:w-[512px] md:w-[250px]"
+          className="xl:w-[512px] md:w-[250px] xl:h-[1224px]"
         >
-          <img src={Img} alt="" className="w-full" />
+          <img src={Img} alt="Img" className="w-full h-full" />
         </div>
       </div>
       <div className="md:w-4/5 xl:w-3/4 pb-14 md:pb-20 pt-[88px] md:pt-40 bg-LightBlue rounded-tr-[40px] md:rounded-tr-[80px] mt-16 xl:mt-[-400px] z-[1] relative mr-5 xl:mr-0">

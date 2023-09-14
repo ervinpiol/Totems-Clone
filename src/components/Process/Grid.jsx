@@ -10,11 +10,11 @@ const Grid = () => {
   return (
     <div className="px-5 xs:px-8 md:px-10 lg:px-20 xl:mx-12">
       <div className="flex gap-4 xl:h-[820px] overflow-hidden flex-col lg:flex-row">
-        <div className="flex flex-col gap-4 lg:w-2/3 md:flex-row">
-          <div className="rounded-tl-[40px] overflow-hidden bg-LightBlue w-full">
+        <div className="flex flex-col h-full gap-4 lg:w-2/3 md:flex-row">
+          <div className="rounded-tl-[40px] overflow-hidden bg-LightBlue w-full h-full">
             <motion.img
               src={Img1}
-              alt=""
+              alt="Img1"
               className="w-full h-[380px] lg:h-full object-cover"
               initial={{ scale: 1.2, opacity: 0 }}
               whileInView={{ scale: 1, opacity: 1 }}
@@ -23,10 +23,10 @@ const Grid = () => {
               whileHover={{ scale: 1.05, transition: { duration: 0.7 } }}
             />
           </div>
-          <div className="w-full overflow-hidden bg-LightBlue">
+          <div className="w-full h-full overflow-hidden bg-LightBlue">
             <motion.img
               src={Img2}
-              alt=""
+              alt="Img2"
               className="w-full h-[380px] lg:h-full object-cover"
               initial={{ scale: 1.2, opacity: 0 }}
               whileInView={{ scale: 1, opacity: 1 }}
@@ -37,10 +37,10 @@ const Grid = () => {
           </div>
         </div>
         <div className="flex flex-col h-full gap-4 lg:w-1/3 md:flex-row lg:flex-col md:w-full">
-          <div className="w-full overflow-hidden bg-LightBlue">
+          <div className="w-full h-full overflow-hidden bg-LightBlue">
             <motion.img
               src={Img3}
-              alt=""
+              alt="Img3"
               className="w-full h-[380px] xl:h-full object-cover"
               initial={{ scale: 1.2, opacity: 0 }}
               whileInView={{ scale: 1, opacity: 1 }}
@@ -49,10 +49,10 @@ const Grid = () => {
               whileHover={{ scale: 1.05, transition: { duration: 0.7 } }}
             />
           </div>
-          <div className="w-full overflow-hidden bg-LightBlue">
+          <div className="w-full h-full overflow-hidden bg-LightBlue">
             <motion.img
               src={Img4}
-              alt=""
+              alt="Img4"
               className="w-full h-[380px] xl:h-full object-cover"
               initial={{ scale: 1.2, opacity: 0 }}
               whileInView={{ scale: 1, opacity: 1 }}

@@ -1,5 +1,5 @@
 import React from "react";
-import Intro from "../components/Process/Intro";
+import ProcessIntro from "../components/Process/ProcessIntro";
 import Solutions from "../components/Process/Solutions";
 import Hero from "../components/Process/Hero";
 import Slider from "../components/common/Slider/Slider";
@@ -9,7 +9,7 @@ import Requirements from "../components/Process/Requirements";
 const Process = () => {
   return (
     <>
-      <Intro />
+      <ProcessIntro />
       <Solutions />
       <Hero />
       <Slider />

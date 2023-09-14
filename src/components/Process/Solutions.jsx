@@ -8,9 +8,9 @@ const Solutions = () => {
         <div
           data-scroll
           data-scroll-speed="-0.02"
-          className="w-3/4 md:w-1/2 xl:w-[450px] md:h-[478px] lg:h-[600px] xl:h-auto"
+          className="w-3/4 md:w-1/2 xl:w-[450px] md:h-[478px] lg:h-[600px] xl:h-[950px]"
         >
-          <img src={Img} alt="" className="h-full mx-auto" />
+          <img src={Img} alt="Img" className="h-full mx-auto" />
         </div>
         <div className="md:w-1/2 xl:w-[508px] md:text-lg text-Gray">
           <p className="mb-6 xl:mb-7">

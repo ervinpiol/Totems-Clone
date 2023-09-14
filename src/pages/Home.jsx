@@ -1,5 +1,5 @@
 import React from "react";
-import Intro from "../components/Home/Intro";
+import HomeIntro from "../components/Home/HomeIntro";
 import Specialized from "../components/Home/Specialized";
 import OurSupport from "../components/Home/OurSupport";
 import Slider from "../components/common/Slider/Slider";
@@ -8,7 +8,7 @@ import Hero from "../components/Home/Hero";
 const Home = () => {
   return (
     <>
-      <Intro />
+      <HomeIntro />
       <Specialized />
       <OurSupport />
       <Slider isHome />

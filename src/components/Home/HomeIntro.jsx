@@ -35,12 +35,11 @@ const Intro = () => {
         <div
           data-scroll
           data-scroll-speed="0.1"
-          className="w-[120%] sm:w-[700px] md:w-[550px] xl:w-[95vh] absolute -left-24 xs:-left-28 md:left-auto md:right-[10%] lg:static xl:absolute xxl:static top-20 max-h-full"
-          /* className="w-[120%] sm:w-[700px] md:w-[550px] xl:w-[50vw] xxl:w-[95vh] absolute -left-24 xs:-left-28 md:left-auto md:right-[10%] lg:static xl:absolute xxl:static top-20 max-h-full xl:-translate-x-1/2 xl:left-0 xl:right-auto" */
+          className="w-[120%] sm:w-[700px] md:w-[550px] xl:w-[95vh] absolute -left-24 xs:-left-28 md:left-auto md:right-[10%] lg:static xl:absolute xxl:static top-20 max-h-full xl:h-[120vh]"
         >
           <motion.img
             src={HeroImg}
-            alt=""
+            alt="HeroImg"
             initial={{ opacity: 0, y: -20, scale: 1.1 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             transition={{ duration: 1.5, delay: 0.4 }}
